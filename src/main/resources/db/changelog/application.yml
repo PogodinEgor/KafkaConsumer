@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/test_kafka
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    password: 1994
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+
+

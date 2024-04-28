@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/prod_category
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    password: ****
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+
